@@ -1,0 +1,33 @@
+#local{
+    padding: 15px 0px;
+    background-image: linear-gradient(to bottom right, rgb(16, 132, 185), black);
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    color: beige;
+    width: 100%;
+    text-align: center;
+}
+
+#cities{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Raleway", sans-serif;
+}
+
+#cities td{
+    border: 1px solid #dedede;
+    padding: 8px;
+}
+
+#cities tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.col1{
+    width: 10%;
+}
+
+.col2{
+    width: 45%;
+}
